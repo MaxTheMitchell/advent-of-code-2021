@@ -33,8 +33,7 @@ silverBody =
     . foldl (\(x, y) cmd -> case cmd of 
         Forward i-> (x+i, y)
         Down i -> (x, y+i)
-        Up i -> (x, y-i)    
-        
+        Up i -> (x, y-i)
     ) (0,0)
     .  parse
 
@@ -46,7 +45,6 @@ goldBody =
         Forward i-> (x+i, y + a*i, a)
         Down i -> (x, y, a+i)
         Up i -> (x, y, a-i)    
-        
     ) (0,0,0)
     .  parse
 

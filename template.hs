@@ -1,5 +1,7 @@
-import Data.List
-import Data.Char
+-- import Data.List
+-- import Data.Char
+-- import Data.Maybe
+-- import Text.Regex
 
 main :: IO ()
 main = silver input >> gold input
