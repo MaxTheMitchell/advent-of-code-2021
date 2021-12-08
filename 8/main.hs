@@ -1,8 +1,6 @@
-import Data.List
-import Data.List.Split
--- import Data.Char
-import Data.Maybe
--- import Text.Regex
+import Data.List ( find, groupBy, partition, sort, sortOn )
+import Data.List.Split ( splitOn )
+import Data.Maybe ( fromJust )
 
 main :: IO ()
 main = silver input >> gold input
