@@ -26,7 +26,7 @@ silverBody str =
   in 
     show 
     . length 
-     . filter (/= 6)
+    . filter (/= 6)
     . filter (/= 5)
     $ map length outputs
 
