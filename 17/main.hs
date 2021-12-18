@@ -2,7 +2,6 @@ import Data.Array (Ix(inRange))
 import Data.List ( groupBy )
 import Data.Char ( isDigit )
 import Data.Maybe ( mapMaybe )
--- import Text.Regex
 
 main :: IO ()
 main = silver input >> gold input
